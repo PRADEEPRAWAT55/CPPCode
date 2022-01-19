@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 vector<vector<int>> v;
+void ans(int arr[], int n, int target);
 void ans(int arr[], int n, int target)
 {
     vector<int> temp;
@@ -12,7 +13,7 @@ void ans(int arr[], int n, int target)
         {
             if (i & (1 << j))
             {
-                // cout << arr[j] << " ";
+                cout << arr[j] << " ";
                 temp.push_back(arr[j]);
                 sum += arr[j];
             }
@@ -26,6 +27,7 @@ void ans(int arr[], int n, int target)
         sum = 0;
     }
 }
+
 int main()
 {
     int n;

@@ -4,7 +4,6 @@ bool search(vector<vector<int>> v, int target)
 {
     int n = v.size();
     int m = v[0].size();
-
     int i = 0;
     int j = m - 1;
     while (i < n && j >= 0)
