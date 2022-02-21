@@ -8,7 +8,7 @@ void computearray(string pat, int ans[])
     ans[0] = 0;
 
     while (i < m)
-    {
+    { 
         if (pat[i] == pat[len])
         {
             len++;
